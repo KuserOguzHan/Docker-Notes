@@ -69,7 +69,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: veritabani:3306 
       WORDPRESS_DB_USER: wordpress
-      WORDPRES_DB_PASSWORD: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
     networks: 
       - wpnet
